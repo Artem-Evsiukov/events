@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link media="all" rel="stylesheet" href="assets/css/vendor.min.css">
+    <link media="all" rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header header--lk">
+          <div class="container">
+            <div class="header__logo">
+              <a href="index.html" class="logo">Events.by</a>
+
+              <button type="button" class="location">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 9.75C21 13.2026 18.7391 16.5201 16.2795 19.0759C15.0705 20.3321 13.858 21.3584 12.9466 22.071C12.5714 22.3643 12.2487 22.6034 12 22.7823C11.7513 22.6034 11.4286 22.3643 11.0534 22.071C10.142 21.3584 8.92951 20.3321 7.72053 19.0759C5.26088 16.5201 3 13.2026 3 9.75C3 4.94122 7.00542 1 12 1C16.9946 1 21 4.94122 21 9.75Z" stroke="#4E697E" stroke-width="2"/>
+                <circle cx="12" cy="10" r="3" stroke="#4E697E" stroke-width="2"/>
+                </svg>
+
+                <span>Минск</span>
+              </button>
+            </div>
+
+            <nav class="nav nav--desctop">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link active">Клубы</a></li>
+                <li class="nav__item"><a href="concert.html" class="nav__link">Концерты</a></li>
+                <li class="nav__item"><a href="event.html" class="nav__link">Театры</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Кино</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Детям</a></li>
+              </ul>
+            </nav>
+
+            <div class="header__lk desktop">
+              <a class="lk-link" href="lk-cabinet.html">
+                <span class="lk-link__icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24.0001" height="24" rx="12" fill="#2288DD" />
+                    <path
+                      d="M19.4027 17.914C19.5665 18.238 19.4971 18.6268 19.247 18.8898C17.4252 20.8056 14.8517 21.9998 11.9994 21.9998C9.14711 21.9998 6.57377 20.8057 4.75199 18.8901C4.50183 18.6271 4.43249 18.2383 4.59621 17.9143C5.48427 16.1569 7.27208 14.9563 9.33287 14.9563H14.6662C16.7269 14.9563 18.5146 16.1568 19.4027 17.914Z"
+                      fill="white" />
+                    <path
+                      d="M11.9995 5.39106C9.7904 5.39106 7.99954 7.23059 7.99954 9.49976V9.47806C7.99954 11.7472 9.7904 13.5868 11.9995 13.5868C14.2087 13.5868 15.9996 11.7472 15.9996 9.47806V9.49977C15.9996 7.23059 14.2087 5.39106 11.9995 5.39106Z"
+                      fill="white" />
+                  </svg>
+                </span>
+                <span class="lk-link__text">Кабинет</span>
+              </a>
+
+              <div class="lk-balance">
+                <div class="lk-balance__wrap">
+                  <p class="lk-balance__text"> Баланс <span>39 BYN</span></p>
+                </div>
+              </div>
+
+              <button type="button" class="btn-logout">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_445_4181)">
+                <path d="M15 7.59091V5C15 3.34315 13.6569 2 12 2H4C2.34315 2 1 3.34315 1 5V19C1 20.6569 2.34315 22 4 22H12C13.6569 22 15 20.6569 15 19V16.4091" stroke="#2288DD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="8" y1="12" x2="22" y2="12" stroke="#2288DD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M23.5 11.134C24.1667 11.5189 24.1667 12.4811 23.5 12.866L20.5 14.5981C19.8333 14.983 19 14.5019 19 13.7321V10.2679C19 9.49815 19.8333 9.01702 20.5 9.40192L23.5 11.134Z" fill="#2288DD"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_445_4181">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              </button>
+
+            </div>
+          </div>
+        </header>
+        <main class="main">
+            <section class="event-section">
+              <div class="container">
+                <div class="event-wrap">
+                  <div class="event-info">
+                    <div class="back-wrap mb-15 is-mobile">
+                      <a href="index.html">
+                        <svg class="icon icon-arrow-left">
+                          <use xlink:href="#arrow-left"></use>
+                        </svg>
+                      </a>
+                    </div>
+
+                    <div class="tags-wrap mb-15 is-desktop">
+                      <div class="tags">
+                        <span class="tag">Концерт</span>
+                        <span class="tag">Рок</span>
+                        <span class="tag">Альтернатива</span>
+                      </div>
+                    </div>
+
+                    <h1 class="main-title">
+                      Сольный стендап концерт Сергея Орлова
+                    </h1>
+
+                    <div class="date">
+                      <div class="date__wrap">
+                        <span class="date__num">22</span>
+                        <div class="date__col">
+                          <span class="date__text">сентябрь</span>
+                          <span class="date__info">понедельник</span>
+                        </div>
+                        <div class="date__col">
+                          <span class="date__text">Дворец спорта</span>
+                          <span class="date__info">г.Минск</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="event">
+                      <div class="event__wrap">
+                        <div class="event__row">
+                          <button type="button" class="btn-link">
+                            <img src="assets/images/promo.svg" alt="" />
+                            У меня есть промокод
+                          </button>
+                        </div>
+
+                        <div class="event__row">
+                          <form action="#" class="form">
+                            <div class="form__wrap">
+                              <div class="form__promo">
+                                <input type="text" placeholder="Промокод" class="form__input" />
+                                <button type="button" class="btn-link">
+                                  Применить
+                                </button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                        <div class="event__row">
+                          <div class="tags">
+                            <span class="tag tag--big">
+                              SALE21 Скидка 10%
+                              <button type="button" class="btn-close">
+                                <svg class="icon">
+                                  <use xlink:href="#btn-close"></use>
+                                </svg>
+                              </button>
+                            </span>
+                          </div>
+                        </div>
+
+                        <div class="event__row">
+                          <div class="event__col">
+                            <span class="event__name">VIP</span>
+                            <span class="event__text is-mobile">15 билетов</span>
+                          </div>
+                          <div class="event__col is-desktop">
+                            <span class="event__text">15 билетов</span>
+                          </div>
+                          <div class="event__col">
+                            <div class="event__price-wrap">
+                              <span class="event__price">
+                                34 BYN
+                              </span>
+                              <span class="event__text event__text--old">
+                                10 BYN
+                              </span>
+                            </div>
+                            <div class="event__info">
+                              <span class="event__text">до 13 ноября</span>
+                              <div class="tooltip">
+                                <div class="tooltip__wrap">
+                                  <div class="tooltip__icon"></div>
+                                  <div class="tooltip__descr">
+                                    <p class="tooltip__text">Стоимость билетов вырастет до 37 BYN. При покупке до 13 ноября вы сэкономите 10%</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="event__nav">
+                            <button type="button" class="btn-icon small minus"></button>
+                            <span class="event__name">2</span>
+                            <button type="button" class="btn-icon small plus"></button>
+                          </div>
+                        </div>
+
+                        <div class="event__row">
+                          <div class="event__col">
+                            <span class="event__name">Танцевальный партер</span>
+                            <span class="event__text is-mobile">15 билетов</span>
+                          </div>
+                          <div class="event__col is-desktop">
+                            <span class="event__text">15 билетов</span>
+                          </div>
+                          <div class="event__col">
+                            <div class="event__price-wrap">
+                              <span class="event__price">
+                                34 BYN
+                              </span>
+                              <span class="event__text event__text--old">
+                                10 BYN
+                              </span>
+                            </div>
+                            <div class="event__info">
+                              <span class="event__text">до 13 ноября</span>
+                              <div class="tooltip">
+                                <div class="tooltip__wrap">
+                                  <div class="tooltip__icon"></div>
+                                  <div class="tooltip__descr">
+                                    <p class="tooltip__text">Стоимость билетов вырастет до 37 BYN. При покупке до 13 ноября вы сэкономите 10%</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="event__nav">
+                            <button type="button" class="btn primary">Купить</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <h3 class="sub-title">Адрес проведения</h3>
+
+                    <div class="bought bought--full">
+                      <div class="bought__wrap">
+                        <div class="bought__map">
+                          <div class="map js-map" id="map"></div>
+                        </div>
+                        <div class="bought__body">
+                          <div class="bought__info">
+                            <h4 class="bought__text bought__text--weight">Дворец Спорта</h4>
+                            <p class="bought__text">г. Минск, ул. Академика Королева, д.34</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <h3 class="sub-title">О событии</h3>
+
+                    <div class="event-descr">
+                      <p class="base-text">
+                        27 ноября талантливый и искренний stand-up комик Сергей Орлов выступит на сцене КЗ «Минск»!
+                      </p>
+                      <p class="base-text">
+                        Топовый резидент Stand-Up Club #1, участник шоу «Вечерний Ургант», «22 комика» и множества других популярных проектов - уже
+                        совсем скоро Сергей презентует свою новую программу белорусскому зрителю.
+                      </p>
+                      <p class="base-text">
+                        «Я думал, это видео про очередного комика, а это про нас всех», - писали под интервью Сергея Юрию Дудю. То же самое можно
+                        сказать и о его юморе – жизненные и близкие всем темы находят отклик у слушателя, а каждое выступление собирает полные залы.
+                      </p>
+                      <p class="base-text">
+                        Победитель в номинации «Лучший сольный концерт» фестиваля комедии «Панчлайн» и по праву называемый «народным» - лучший молодой
+                        комик – Сергей Орлов!
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="event-img">
+                    <img src="assets/images/event-poster.jpg" alt="Stan up Сергей Орлов" />
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="application-section">
+                <div class="container">
+                    <div class="application">
+                        <div class="application__wrap">
+                            <h2 class="section-title">Все события Минска <br>
+                                в приложении <a href="#" class="section-link">Events.by</a></h2>
+
+                            <div class="application__icon-wrap">
+                                <div class="application__icon">
+                                    <img src="assets/images/app.png" alt="">
+                                </div>
+                                <div class="application__icon">
+                                    <img src="assets/images/googl.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="application__img">
+                            <img src="assets/images/smart-bg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer ">
+            <div class="container container--big">
+                <div class="footer__wrap">
+                    <div class="footer__col">
+                        <div class="logo-footer">Boxtips</div>
+                        <div class="copyright">
+                            <span class="copyright__subtext subtext">© 2021</span>
+                            <ul class="copyright__list">
+                                <li class="copyright__item">
+                                    <a href="" class="copyright__link subtext">Правила</a>
+                                </li>
+                                <li class="copyright__item">
+                                    <a href="" class="copyright__link subtext">Политика конфиденциальности</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+                        <div class="contact__col">
+                            <ul class="contact__list">
+                                <li class="contact__item">
+                                    <a href="" class="contact__link">О компании</a>
+                                </li>
+                                <li class="contact__item">
+                                    <a href="" class="contact__link">Контакты</a>
+                                </li>
+                                <li class="contact__item">
+                                    <a href="" class="contact__link">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact__col">
+                            <ul class="contact__list">
+                                <li class="contact__item">
+                                    <a href="" class="contact__link">Интеграция по API</a>
+                                </li>
+                                <li class="contact__item">
+                                    <a href="" class="contact__link">Договор</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__col">
+                        <div class="system">
+                            <div class="system__wrap">
+                                <div class="system__col">
+                                    <span class="system__text">Мы работаем</span>
+                                    <span class="system__text">с платежными</span>
+                                    <span class="system__text">системами</span>
+                                </div>
+                                <div class="pay-wrap">
+
+                                    <div class="pay__img">
+                                        <img src="assets/images/visa2.svg" alt="">
+                                    </div>
+                                    <div class="pay__img">
+                                        <img src="assets/images/secure.svg" alt="">
+                                    </div>
+                                    <div class="pay__img">
+                                        <img src="assets/images/mastercard.svg" alt="">
+                                    </div>
+                                    <div class="pay__img">
+                                        <img src="assets/images/idcheck.svg" alt="">
+                                    </div>
+                                    <div class="pay__img">
+                                        <img src="assets/images/belcart.svg" alt="">
+                                    </div>
+                                    <div class="pay__img">
+                                        <img src="assets/images/pay.svg" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="overlay js-overlay"></div>
+        <div class="popup" data-popup="some-popup">
+          <button type="button" class="popup__close js-popup-close"></button>
+          <div class="popup__wrap">
+
+          </div>
+        </div>
+
+        <div class="popup-promo popup-promo--fail" data-popup="some-popup">
+          <div class="popup-promo__wrap">
+            <span class="popup-promo__text"> Промокод не найден. Возможно, <br> он просрочен или написан с ошибкой </span>
+          </div>
+        </div>
+
+        <div class="popup-promo popup-promo--success" data-popup="some-popup">
+          <div class="popup-promo__wrap">
+            <span class="popup-promo__text"> Промокод применен </span>
+          </div>
+        </div>
+        <div class="svg-sprite">
+            <?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol fill="none" viewBox="0 0 17 18" id="aple" xmlns="http://www.w3.org/2000/svg"><path d="M13.672 17.067c-1.001.936-2.105.79-3.158.349-1.119-.45-2.142-.479-3.323 0-1.472.612-2.253.434-3.14-.349C-.951 12.102-.212 4.538 5.475 4.253c1.379.072 2.345.735 3.157.79 1.207-.236 2.363-.914 3.656-.825 1.553.12 2.714.712 3.49 1.774-3.195 1.851-2.438 5.909.496 7.048-.587 1.486-1.34 2.954-2.603 4.04l.002-.013zM8.52 4.2C8.37 1.993 10.226.178 12.36 0c.294 2.545-2.4 4.45-3.84 4.2z" fill="#fff"/></symbol><symbol fill="none" viewBox="0 0 10 18" id="arrow-left" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.707.293a1 1 0 010 1.414L2.414 9l7.293 7.293a1 1 0 01-1.414 1.414l-8-8a1 1 0 010-1.414l8-8a1 1 0 011.414 0z" fill="#28D"/></symbol><symbol fill="none" viewBox="0 0 8 14" id="arrow_r" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.293.293a1 1 0 000 1.414L5.586 7 .293 12.293a1 1 0 101.414 1.414l6-6a1 1 0 000-1.414l-6-6a1 1 0 00-1.414 0z" fill="#28D"/></symbol><symbol fill="none" viewBox="0 0 16 16" id="btn-close" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 12.5L8 8m4.5-4.5L8 8m0 0l4.5 4.5M8 8L3.5 3.5" stroke="#4E697E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol fill="none" viewBox="0 0 24 24" id="close" xmlns="http://www.w3.org/2000/svg"><path d="M4.343 19.657L12 12m7.657-7.657L12 12m0 0L4.343 4.343M12 12l7.657 7.657" stroke="#28D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol fill="none" viewBox="0 0 14 14" id="close-popup" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.293.293a1 1 0 011.414 0l11.8 11.799a1 1 0 01-1.415 1.414L.292 1.707a1 1 0 010-1.414z" fill="#8598A7"/><path fill-rule="evenodd" clip-rule="evenodd" d="M.293 13.506a1 1 0 010-1.414L12.092.292a1 1 0 111.414 1.415l-11.799 11.8a1 1 0 01-1.414 0z" fill="#8598A7"/></symbol><symbol fill="none" viewBox="0 0 24 24" id="filter" xmlns="http://www.w3.org/2000/svg"><path d="M1.172 17h21.657M1.172 7h21.657" stroke="#28D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="17" cy="17" r="3" fill="#fff" stroke="#28D" stroke-width="2"/><circle cx="7" cy="7" r="3" fill="#fff" stroke="#28D" stroke-width="2"/></symbol><symbol fill="none" viewBox="0 0 24 24" id="per" xmlns="http://www.w3.org/2000/svg"><mask id="ha" fill="#fff"><path fill-rule="evenodd" clip-rule="evenodd" d="M24 7a4 4 0 00-4-4H2.5A2.5 2.5 0 000 5.5c0 1.38 1.221 2.447 2.34 3.256A3.995 3.995 0 014 12a3.995 3.995 0 01-1.66 3.244C1.221 16.053 0 17.12 0 18.5A2.5 2.5 0 002.5 21H20a4 4 0 004-4V7z"/></mask><path d="M2.5 5H20V1H2.5v4zm-1.331 5.377c.507.366.831.957.831 1.623h4a5.995 5.995 0 00-2.488-4.865l-2.343 3.242zM2 12c0 .666-.324 1.257-.831 1.623l2.343 3.242A5.995 5.995 0 006 12H2zm18 7H2.5v4H20v-4zm2-12v10h4V7h-4zm-2 16a6 6 0 006-6h-4a2 2 0 01-2 2v4zM1.169 13.623c-.596.431-1.35 1.02-1.962 1.763-.62.752-1.207 1.8-1.207 3.114h4c0-.067.023-.242.294-.57.279-.338.695-.687 1.218-1.065l-2.343-3.242zM-2 5.5c0 1.314.587 2.362 1.207 3.114.612.743 1.366 1.332 1.962 1.763l2.343-3.242c-.523-.378-.94-.727-1.218-1.065C2.024 5.742 2 5.567 2 5.5h-4zM20 5a2 2 0 012 2h4a6 6 0 00-6-6v4zM-2 18.5A4.5 4.5 0 002.5 23v-4a.5.5 0 01-.5-.5h-4zM2.5 1A4.5 4.5 0 00-2 5.5h4a.5.5 0 01.5-.5V1z" fill="#28D" mask="url(#ha)"/><circle cx="11.141" cy="9.128" r="1.75" stroke="#28D" stroke-width="1.5"/><circle cx="16.705" cy="14.757" r="1.75" stroke="#28D" stroke-width="1.5"/><path d="M11 15l6-6" stroke="#28D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol fill="none" viewBox="0 0 16 17" id="restart" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.068 2.779a1.293 1.293 0 01-.04.012c-.446.125-.94.007-1.221-.37-.334-.448-.245-1.087.24-1.362a8 8 0 11-3.7 9.33c-.166-.533.208-1.06.757-1.157.465-.082.905.17 1.143.568a1.318 1.318 0 01.11.233 5.979 5.979 0 102.911-7.336c-.063.032-.13.06-.196.08l-.004.002z" fill="#28D"/><path d="M1.71 4.45a.872.872 0 01-.748-1.312L2.486.53a.872.872 0 011.51.007l1.497 2.624a.872.872 0 01-.762 1.304L1.71 4.45z" fill="#28D"/></symbol><symbol fill="none" viewBox="0 0 24 24" id="search" xmlns="http://www.w3.org/2000/svg"><circle cx="11.13" cy="11.13" r="8.13" stroke="#4E697E" stroke-width="2"/><path d="M21.293 22.707a1 1 0 101.414-1.414l-1.414 1.414zm-2.934-5.762a1 1 0 00-1.414 1.414l1.414-1.414zm4.348 4.348l-4.348-4.348-1.414 1.414 4.348 4.348 1.414-1.414z" fill="#4E697E"/></symbol><symbol fill="none" viewBox="0 0 24 24" id="ticket" xmlns="http://www.w3.org/2000/svg"><mask id="ka" fill="#fff"><path fill-rule="evenodd" clip-rule="evenodd" d="M24 7a4 4 0 00-4-4H2.5A2.5 2.5 0 000 5.5c0 1.38 1.221 2.447 2.34 3.256A3.995 3.995 0 014 12a3.995 3.995 0 01-1.66 3.244C1.221 16.053 0 17.12 0 18.5A2.5 2.5 0 002.5 21H20a4 4 0 004-4V7z"/></mask><path d="M2.5 5H20V1H2.5v4zm-1.331 5.377c.507.366.831.957.831 1.623h4a5.995 5.995 0 00-2.488-4.865l-2.343 3.242zM2 12c0 .666-.324 1.257-.831 1.623l2.343 3.242A5.995 5.995 0 006 12H2zm18 7H2.5v4H20v-4zm2-12v10h4V7h-4zm-2 16a6 6 0 006-6h-4a2 2 0 01-2 2v4zM1.169 13.623c-.596.431-1.35 1.02-1.962 1.763-.62.752-1.207 1.8-1.207 3.114h4c0-.067.023-.242.294-.57.279-.338.695-.687 1.218-1.065l-2.343-3.242zM-2 5.5c0 1.314.587 2.362 1.207 3.114.612.743 1.366 1.332 1.962 1.763l2.343-3.242c-.523-.378-.94-.727-1.218-1.065C2.024 5.742 2 5.567 2 5.5h-4zM20 5a2 2 0 012 2h4a6 6 0 00-6-6v4zM-2 18.5A4.5 4.5 0 002.5 23v-4a.5.5 0 01-.5-.5h-4zM2.5 1A4.5 4.5 0 00-2 5.5h4a.5.5 0 01.5-.5V1z" fill="#28D" mask="url(#ka)"/><circle cx="11.141" cy="9.128" r="1.75" stroke="#28D" stroke-width="1.5"/><circle cx="16.705" cy="14.757" r="1.75" stroke="#28D" stroke-width="1.5"/><path d="M11 15l6-6" stroke="#28D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol fill="none" viewBox="0 0 16 16" id="toltip" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" stroke="#4E697E" stroke-width="2"/><g clip-path="url(#la)"><path d="M8 7.307v4" stroke="#4E697E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="4.693" r="1" fill="#4E697E"/></g><defs><clipPath id="la"><path fill="#fff" transform="translate(7 3.5)" d="M0 0h2v9H0z"/></clipPath></defs></symbol></svg>
+        </div>
+    </div>
+    <script src="assets/js/vendor.min.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=dab272a3-e76c-4c32-a3e7-22c8301a5ff6&width=100%&height=830&lang=ru_RU"></script>
+</body>
+
+</html>
